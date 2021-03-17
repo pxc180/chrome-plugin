@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "my-plugin",
+  "version": "0.1.0",
+
+  "description": "这是一段描述！",
+  "icons": {
+    "84": "./icon/astronauts.png"
+  },
+  "browser_action": {
+    "default_icon": "./icon/astronauts.png",
+    "default_title": "我的插件",
+    "default_popup": "./html/popup.html"
+  }
+}
